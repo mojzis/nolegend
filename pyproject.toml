@@ -1,6 +1,6 @@
 [project]
 name = "nolegend"
-version = "0.1.1"
+version = "0.1.2"
 description = "Tufte-style templates and helpers for Plotly charts"
 readme = "README.md"
 requires-python = ">=3.10"
