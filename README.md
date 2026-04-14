@@ -30,10 +30,20 @@ nolegend fills that gap with opinionated defaults and easy overrides.
 ## Install
 
 ```bash
-pip install nolegend
-# or
 uv add nolegend
 ```
+
+### Claude Code skill
+
+nolegend ships a visualization skill that teaches Claude Code the
+px → go workflow, Tufte principles, color rules, and marimo patterns.
+
+```bash
+npx skills add mojzis/nolegend
+```
+
+Once installed, Claude Code will automatically apply nolegend conventions
+whenever you create Plotly charts.
 
 ## Quick start
 
